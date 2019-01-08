@@ -18,4 +18,7 @@ setuptools.setup(
         "Development Status :: 4 - Beta",
         
     ],
+    entry_points = {
+        "console_scripts" : ['optimus_args = bin.spark:main']
+    },
 )
