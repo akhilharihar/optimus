@@ -58,7 +58,7 @@ encoded = opt.encode(20) # 1535832388
 ```
 To decode the resulting encoded value back to its original value,
 ```
-decoded = opt.encode(1535832388) # 20
+decoded = opt.decode(1535832388) # 20
 ```
 
 **Note** - This library can only encode and decode positive integers ranging from 0 to 2147483647. 
